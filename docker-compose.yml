@@ -8,6 +8,7 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=traefik-proxy"
+      - traefik.constraint-label=traefik-public
       - "traefik.http.routers.portfolio.rule=Host(`janilson.alfser.com.br`)"
       - "traefik.http.routers.portfolio.entrypoints=websecure"
       - "traefik.http.services.portfolio.loadbalancer.server.port=80"
