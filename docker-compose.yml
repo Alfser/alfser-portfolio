@@ -14,9 +14,10 @@ services:
         - traefik.constraint-label=traefik-public
         - "traefik.http.routers.portfolio.rule=Host(`janilson.alfser.com.br`)"
         - "traefik.http.routers.portfolio.entrypoints=websecure"
+        - traefik.http.routers.portfolio.tls=true
+        - traefik.http.routers.portfolio.tls.certresolver=le
         - "traefik.http.services.portfolio.loadbalancer.server.port=20261"
         - "traefik.http.routers.portfolio.service=portfolio"
-        - "traefik.http.routers.portfolio.middlewares=security-headers@docker"
       mode: replicated
       replicas: 1
       update_config:
