@@ -47,7 +47,7 @@ RUN rm -rf /etc/nginx/conf.d/default.conf.bak && \
 RUN apk add --no-cache curl
 
 # Expõe a porta 80
-EXPOSE 20261
+EXPOSE 80
 
 # Troca para o usuário não-root
 USER nginx-user
