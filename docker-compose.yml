@@ -19,7 +19,7 @@ services:
       - traefik-proxy
     deploy:
       mode: replicated
-      replicas: 2
+      replicas: 1
       update_config:
         parallelism: 1
         delay: 10s
@@ -41,7 +41,7 @@ services:
         window: 120s
       placement:
         constraints:
-          - node.role == worker
+          - node.role == manager
 
 networks:
   traefik-proxy:
