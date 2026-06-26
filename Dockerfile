@@ -22,7 +22,7 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copia os arquivos de build do React
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /app/dist /usr/share/nginx/html
 
 # Copia a configuração customizada do NGINX
 COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
