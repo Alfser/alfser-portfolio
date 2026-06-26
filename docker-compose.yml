@@ -1,6 +1,6 @@
 services:
   alfser-portfolio:
-    image: registry.alfser.com.br/portfolio-janilson:latest
+    image: alfser-portfolio:latest
     build:
       context: .
       dockerfile: Dockerfile
