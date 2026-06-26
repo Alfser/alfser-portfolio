@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e9edf2;
+  padding-bottom: 1.5rem;
+}
+
+.header-lang-indicator {
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+
+.header-lang-indicator i {
+  margin-right: 0.4rem;
+}
