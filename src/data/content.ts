@@ -1,25 +1,29 @@
 export const content = {
   pt: {
-    name: "Janilson Serra",
+    name: "Janilson Alfaia",
     title: "Backend · Python, Java, Kotlin · Django, Spring Boot · CI/CD · AWS",
     location: "Belém, Pará, Brasil",
-    summary: "Sou desenvolvedor de software com graduação em Engenharia da Computação, atuando em aplicações Backend e Frontend. Tenho experiência na construção de Web Services RESTful usando Python (Django e Flask), assim como Java e Kotlin com Spring Boot. No Frontend, trabalho com interfaces modernas usando Next.js e React.js. Além disso, tenho experiência na construção de pipelines CI com GitLab CI e deploy em servidores Linux e serviços AWS. Sou apaixonado por tecnologia e busco constantemente aprimorar minhas habilidades para entregar soluções cada vez mais valiosas. Atualmente estudo conceitos de Domain-Driven Design (DDD) e sistemas de mensageria, com foco em Kotlin. Também dedico tempo para melhorar minha proficiência em inglês. Tenho interesse em expandir meu conhecimento em arquiteturas de distribuição e microsserviços.",
+    summary: "Sou desenvolvedor de software com graduação em Engenharia da Computação, atuando em aplicações Backend e Frontend. Tenho experiência na construção de Web Services RESTful usando Python (Django e Flask), assim como Java e Kotlin com Spring Boot. No Frontend, trabalho com interfaces modernas usando Next.js e React.js. Além disso, tenho experiência na construção de pipelines CI com GitLab CI e deploy em servidores Linux e serviços AWS. Sou apaixonado por tecnologia e busco constantemente aprimorar minhas habilidades para entregar soluções cada vez mais valiosas. Atualmente estudo conceitos de Domain-Driven Design (DDD) e sistemas de mensageria, com foco em Kotlin. Também dedico tempo para melhorar minha proficiência em inglês. Tenho interesse em expandir meu conhecimento em arquiteturas de sistemas distribuidos e microsserviços.",
     experience: [
       {
         title: "Analista de Sistemas Pleno (Backend)",
         company: "CTC",
-        period: "Junho 2022 - Presente (4 anos 1 mês)",
+        period: "Junho 2022 - Presente (mais de 4 anos)",
         location: "Belém, PA",
         bullets: [
-          "Desenvolvimento de APIs RESTful de alta disponibilidade com Spring Boot e Django, aplicando Clean Architecture.",
-          "Sistemas assíncronos com Apache Kafka e RabbitMQ; modelagem de dados para PostgreSQL e MongoDB.",
-          "Containerização com Docker para ambientes on-premise.",
-          "Autenticação/autorização com Keycloak, OAuth 2.1 e Spring Resource Server.",
-          "Documentação automática com Swagger/OpenAPI.",
-          "Testes unitários (JUnit 5, Mockito, Unittest) e de integração, cobertura > 80% (SonarQube).",
-          "Otimização de performance: eliminação de N+1 no Django ORM e paralelização com Celery (redução de 1h para 15min).",
-          "Monitoramento com Sentry e Instana.",
-          "CI/CD no GitLab com análise estática, build, testes e deploy."
+          "Development of high-availability RESTful APIs with Spring Boot and Django, applying Clean Architecture and SOLID principles.",
+          "Refactoring messaging services to decoupled architecture, abstracting Apache Kafka and adding RabbitMQ support through interfaces, enabling flexibility for new messaging clients.",
+          "Optimization of SQL queries and Django ORM, eliminating N+1 query problems and adjusting queries to use existing indexes, resulting in significant performance gains.",
+          "Resolved Solar infrastructure bottlenecks by implementing scalable architecture with Docker Swarm, NGINX, and Traefik for better load distribution and eliminating crashes.",
+          "Implementation of timeout and retry policies for critical queries, plus caching for repetitive external API calls, reducing latency and improving resilience.",
+          "Optimization of Celery tasks with parallelism, reducing execution time of critical tasks from over 1 hour to under 20 minutes.",
+          "Managed development of legal system (prisoner monitoring and criminal execution), including requirements gathering, scope definition, and core architecture in Python Django with TypeScript frontend.",
+          "Integration with court APIs (SEEU) and state penitentiary system, plus development of integration with service system via messaging (Kafka/RabbitMQ abstraction).",
+          "Robust authentication/authorization with Keycloak, OAuth 2.1, and Spring Resource Server, ensuring security and access control.",
+          "Automated API documentation with Swagger/OpenAPI as a living contract between teams.",
+          "Solid testing pipeline with Unit Tests (JUnit 5, Mockito, Unittest) and Integration/API Tests, ensuring over 80% coverage (SonarQube).",
+          "Real-time monitoring with Sentry and Instana for rapid incident resolution and identification of optimization points.",
+          "CI/CD implementation on GitLab with static analysis (SonarQube), automated build, testing, and deployment."
         ],
         tags: ["Java", "Spring Boot", "Python", "Django", "Kafka", "RabbitMQ", "PostgreSQL", "MongoDB", "Docker", "Keycloak", "GitLab CI"]
       },
@@ -79,20 +83,20 @@ export const content = {
     ],
     education: "Universidade Federal do Pará · Bacharelado em Engenharia da Computação (2016 - 2022)",
     certifications: "AWS Academy Graduate - AWS Academy Cloud Foundations",
-    topSkills: ["Redis", "Docker Swarm", "Apache Kafka"],
+    topSkills: ["Python", "Java", "Kotlin", "Docker Swarm", "Apache Kafka", "RabbitMQ", "MongoDB", "PostgreSQL"],
     languages: "Português (Nativo) · Inglês (Limitado)",
     contact: {
-      phone: "91983328019",
-      email: "j.janilson12@gmail.com",
+      phone: "91983328019 (whatsaap)",
+      email: "janilson.dev@alfser.com.br",
       linkedin: "https://www.linkedin.com/in/janilsonalfser",
       github: "https://github.com/Alfser"
     }
   },
   en: {
-    name: "Janilson Serra",
+    name: "Janilson Alfaia",
     title: "Backend · Python, Java, Kotlin · Django, Spring Boot · CI/CD · AWS",
     location: "Belém, Pará, Brazil",
-    summary: "I'm a software developer with a degree in Computer Engineering, working on both Backend and Frontend applications. I have experience building RESTful Web Services using Python (with Django and Flask), as well as Java and Kotlin with Spring Boot. On the Frontend, I work with modern interfaces using Next.js and React.js. Besides that, I have experience building CI pipelines with GitLab CI and deploying applications on Linux servers and AWS services. I'm passionate about technology and constantly seek to improve my skills to deliver increasingly high-quality and valuable solutions. Currently, I'm studying Domain-Driven Design (DDD) concepts and messaging systems, focusing on Kotlin applications. I'm also dedicating time to improving my English proficiency. I'm interested in expanding my knowledge into distribution and microservices architectures.",
+    summary: "I'm a software developer with a degree in Computer Engineering, working on both Backend and Frontend applications. I have experience building RESTful Web Services using Python (with Django and Flask), as well as Java and Kotlin with Spring Boot. On the Frontend, I work with modern interfaces using Next.js and React.js. Besides that, I have experience building CI pipelines with GitLab CI and deploying applications on Linux servers and AWS services. I'm passionate about technology and constantly seek to improve my skills to deliver increasingly high-quality and valuable solutions. Currently, I'm studying Domain-Driven Design (DDD) concepts and messaging systems, focusing on Kotlin applications. I'm also dedicating time to improving my English proficiency. I'm interested in expanding my knowledge into distribution systems and microservices architectures.",
     experience: [
       {
         title: "Systems Analyst (Backend)",
@@ -168,11 +172,11 @@ export const content = {
     ],
     education: "Universidade Federal do Pará · Bachelor in Computer Engineering (2016 - 2022)",
     certifications: "AWS Academy Graduate - AWS Academy Cloud Foundations",
-    topSkills: ["Redis", "Docker Swarm", "Apache Kafka"],
+    topSkills: ["Python", "Java", "Kotlin", "Docker Swarm", "Apache Kafka", "RabbitMQ", "MongoDB", "PostgreSQL"],
     languages: "Portuguese (Native) · English (Limited Working)",
     contact: {
-      phone: "91983328019",
-      email: "j.janilson12@gmail.com",
+      phone: "91983328019 (whatsaap)",
+      email: "janilson.dev@alfser.com.br",
       linkedin: "https://www.linkedin.com/in/janilsonalfser",
       github: "https://github.com/Alfser"
     }
