@@ -84,7 +84,7 @@ export const content = {
     education: "Universidade Federal do Pará · Bacharelado em Engenharia da Computação (2016 - 2022)",
     certifications: "AWS Academy Graduate - AWS Academy Cloud Foundations",
     topSkills: ["Python", "Java", "Kotlin", "Docker Swarm", "Apache Kafka", "RabbitMQ", "MongoDB", "PostgreSQL"],
-    languages: "Português (Nativo) · Inglês (Limitado)",
+    languages: "Português (Nativo) · Inglês (Intermediário)",
     contact: {
       phone: "91983328019 (whatsaap)",
       email: "janilson.dev@alfser.com.br",
@@ -173,7 +173,7 @@ export const content = {
     education: "Universidade Federal do Pará · Bachelor in Computer Engineering (2016 - 2022)",
     certifications: "AWS Academy Graduate - AWS Academy Cloud Foundations",
     topSkills: ["Python", "Java", "Kotlin", "Docker Swarm", "Apache Kafka", "RabbitMQ", "MongoDB", "PostgreSQL"],
-    languages: "Portuguese (Native) · English (Limited Working)",
+    languages: "Portuguese (Native) · English (Intermediário)",
     contact: {
       phone: "91983328019 (whatsaap)",
       email: "janilson.dev@alfser.com.br",

@@ -26,7 +26,7 @@ function App() {
         
         <div className="footer">
           <span>© {new Date().getFullYear()} Janilson Serra</span>
-          <span>{lang === 'pt' ? 'Desenvolvido com React · Portfólio' : 'Built with React · Portfolio'}</span>
+          <span>{lang === 'pt' ? ' - Desenvolvido com React · Portfólio' : ' - Built with React · Portfolio'}</span>
         </div>
       </div>
     </div>
