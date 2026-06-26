@@ -5,7 +5,13 @@ export const Profile = ({ data }: {data : any}) => {
 
   return (
     <div className="profile">
-      <div className="profile-avatar">JS</div>
+      <div className="profile-avatar">
+        <img 
+          src="https://media.licdn.com/dms/image/v2/D4D03AQH1mF-MqS-GcA/profile-displayphoto-scale_400_400/B4DZl7hLy_HwAg-/0/1758713922803?e=1784160000&v=beta&t=V85y8n7v5288louvuR2F219HmLSiEmMQpXL0ysmId88" 
+          alt="Avatar" 
+          className="avatar-image"
+        />
+      </div>
       <div className="profile-info">
         <h1 className="profile-name">{name}</h1>
         <div className="profile-title">
@@ -13,9 +19,6 @@ export const Profile = ({ data }: {data : any}) => {
           <span><i className="fas fa-map-pin"></i> {location}</span>
         </div>
         <div className="contact-links">
-          <a href={`tel:${contact.phone}`}>
-            <i className="fas fa-phone-alt"></i> {contact.phone}
-          </a>
           <a href={`mailto:${contact.email}`}>
             <i className="fas fa-envelope"></i> {contact.email}
           </a>
