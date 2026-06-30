@@ -85,6 +85,38 @@ export const content = {
     certifications: "AWS Academy Graduate - AWS Academy Cloud Foundations",
     topSkills: ["Python", "Java", "Kotlin", "Docker Swarm", "Apache Kafka", "RabbitMQ", "MongoDB", "PostgreSQL"],
     languages: "Português (Nativo) · Inglês (Intermediário)",
+    skillCategories: [
+      {
+        name: "Backend",
+        nameEn: "Backend",
+        skills: ["Python", "Java", "Kotlin", "Django", "Flask", "Spring Boot"]
+      },
+      {
+        name: "Bancos de Dados & Mensageria",
+        nameEn: "Databases & Messaging",
+        skills: ["PostgreSQL", "MongoDB", "SQL Server", "Apache Kafka", "RabbitMQ"]
+      },
+      {
+        name: "Infraestrutura & DevOps",
+        nameEn: "Infrastructure & DevOps",
+        skills: ["Docker", "Docker Swarm", "AWS", "GitLab CI/CD", "NGINX", "Traefik", "Linux"]
+      },
+      {
+        name: "Frontend & Mobile",
+        nameEn: "Frontend & Mobile",
+        skills: ["React", "Next.js", "TypeScript", "JavaScript", "Android (Java)"]
+      },
+      {
+        name: "Arquitetura & Práticas",
+        nameEn: "Architecture & Practices",
+        skills: ["REST APIs", "Clean Architecture", "SOLID", "DDD", "OAuth 2.1", "Keycloak", "SonarQube"]
+      },
+      {
+        name: "Monitoramento & Testes",
+        nameEn: "Monitoring & Testing",
+        skills: ["JUnit 5", "Mockito", "Unittest", "Sentry", "Instana", "Swagger/OpenAPI", "Celery"]
+      }
+    ],
     contact: {
       phone: "91983328019 (whatsaap)",
       email: "janilson.dev@alfser.com.br",
@@ -173,7 +205,39 @@ export const content = {
     education: "Universidade Federal do Pará · Bachelor in Computer Engineering (2016 - 2022)",
     certifications: "AWS Academy Graduate - AWS Academy Cloud Foundations",
     topSkills: ["Python", "Java", "Kotlin", "Docker Swarm", "Apache Kafka", "RabbitMQ", "MongoDB", "PostgreSQL"],
-    languages: "Portuguese (Native) · English (Intermediário)",
+    languages: "Portuguese (Native) · English (Intermediate)",
+    skillCategories: [
+      {
+        name: "Backend",
+        nameEn: "Backend",
+        skills: ["Python", "Java", "Kotlin", "Django", "Flask", "Spring Boot"]
+      },
+      {
+        name: "Bancos de Dados & Mensageria",
+        nameEn: "Databases & Messaging",
+        skills: ["PostgreSQL", "MongoDB", "SQL Server", "Apache Kafka", "RabbitMQ"]
+      },
+      {
+        name: "Infraestrutura & DevOps",
+        nameEn: "Infrastructure & DevOps",
+        skills: ["Docker", "Docker Swarm", "AWS", "GitLab CI/CD", "NGINX", "Traefik", "Linux"]
+      },
+      {
+        name: "Frontend & Mobile",
+        nameEn: "Frontend & Mobile",
+        skills: ["React", "Next.js", "TypeScript", "JavaScript", "Android (Java)"]
+      },
+      {
+        name: "Arquitetura & Práticas",
+        nameEn: "Architecture & Practices",
+        skills: ["REST APIs", "Clean Architecture", "SOLID", "DDD", "OAuth 2.1", "Keycloak", "SonarQube"]
+      },
+      {
+        name: "Monitoramento & Testes",
+        nameEn: "Monitoring & Testing",
+        skills: ["JUnit 5", "Mockito", "Unittest", "Sentry", "Instana", "Swagger/OpenAPI", "Celery"]
+      }
+    ],
     contact: {
       phone: "91983328019 (whatsaap)",
       email: "janilson.dev@alfser.com.br",

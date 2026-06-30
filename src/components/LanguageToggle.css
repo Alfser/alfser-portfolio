@@ -1,29 +1,33 @@
 .lang-toggle {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
-  background: #f1f4f9;
-  padding: 0.3rem;
-  border-radius: 40px;
 }
 
 .lang-btn {
-  background: transparent;
+  background: none;
   border: none;
-  padding: 0.5rem 1.2rem;
-  border-radius: 30px;
-  font-weight: 600;
-  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: 0.2s;
-  color: #2c3e50;
-}
-
-.lang-btn.active {
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  color: #0b1a2e;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all var(--transition-base);
+  letter-spacing: 0.05em;
 }
 
 .lang-btn:hover {
-  background: white;
+  color: var(--color-text-secondary);
+}
+
+.lang-btn.active {
+  color: var(--color-accent);
+}
+
+.lang-divider {
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  user-select: none;
 }
